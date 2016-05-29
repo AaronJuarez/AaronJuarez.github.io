@@ -18,18 +18,14 @@ body {
 	min-height: 400px;
 	margin: 0;
 	padding: 0;
-	/*background-color: #d24d57;
-	background-image: url("../images/nevado2.jpg");
-	background-position: 50% 0;
-	background-size: 0;
-	background-repeat: no-repeat;
+	background: linear-gradient(rgba(61, 195, 65, 0.45), rgba(61, 195, 65, 0.45)), url("../images/nevado2.jpg"), no-repeat;
 	background-attachment: fixed;
-	background: #d24d57 url("../images/nevado2.jpg") 50% 0 no-repeat fixed;
-	background: url("../images/nevado2.jpg") no-repeat 0 0,-moz-linear-gradient(center bottom , white, #d24d57);
-	background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)),url("../images/nevado2.jpg");*/
-	background: linear-gradient(rgba(61, 195, 65, 0.45), rgba(61, 195, 65, 0.45)),url("../images/nevado2.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	z-index: -10;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	content: "";
 }
 
 .container {
