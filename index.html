@@ -8,9 +8,9 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script type="text/javascript" src="js/jquery-1.12.0.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/helper.js"></script>
+    <script src="js/jquery-1.12.0.js" async></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/helper.js"></script>
   </head>
   <body>
       <div class="container">
@@ -47,54 +47,67 @@
 
           <div class="row text-center">
               <div class="col-md-12 portfolio-elem">
-                  <h3 class="text-uppercase">Online Resume</h3>
-                  <p class="github-icon"><a class="fontawesome-github-alt" href="http://github.com" target="_blank"></a></p>
                   <div class="fader center-block">
                     <picture>
                       <source media="(min-width: 750px)" srcset="images/resume.png 2x, images/resume.png"/>
                       <img class="img-responsive center-block clickable-img" src="images/resume.png" data-toggle="modal" data-target="#project1" alt="Online Resume">
                     </picture>
                   </div>
+                  <h3 class="text-uppercase">Online Resume</h3>
+                  <p class="github-icon"><a class="fontawesome-github-alt" href="https://github.com/AaronJuarez/online-resume" target="_blank"></a></p>
               </div>
           </div>
 
           <div class="row text-center">
 
               <div class="col-md-12 portfolio-elem">
-                <h3 class="text-uppercase">Classic Arcade</h3>
-                <p class="github-icon"><a class="fontawesome-github-alt" href="http://github.com" target="_blank"></a></p>
                 <div class="fader center-block">
                   <picture>
                     <source media="(min-width: 750px)" srcset="images/arcade.png 2x, images/arcade.png"/>
                     <img class="img-responsive center-block clickable-img" src="images/arcade.png" data-toggle="modal" data-target="#project2" alt="Classic Arcade">
                   </picture>
                 </div>
+                <h3 class="text-uppercase">Classic Arcade Game</h3>
+                <p class="github-icon"><a class="fontawesome-github-alt" href="https://github.com/AaronJuarez/classic-arcade-game-clone" target="_blank"></a></p>
               </div>
           </div>
 
           <div class="row text-center">
               <div class="col-md-12 portfolio-elem">
-                <h3 class="text-uppercase">Website Optimization</h3>
-                <p class="github-icon"><a class="fontawesome-github-alt" href="http://github.com" target="_blank"></a></p>
                 <div class="fader center-block">
                   <picture class="fader">
-                    <source media="(min-width: 750px)" srcset="images/nature-1600_large_2x.jpg 2x, images/nature-800_large_1x.jpg"/>
-                    <img class="img-responsive center-block clickable-img" src="images/nature-1600_large_2x.jpg" data-toggle="modal" data-target="#project3" alt="Website Optimization">
+                    <source media="(min-width: 750px)" srcset="images/optimization.png 2x, images/optimization.png"/>
+                    <img class="img-responsive center-block clickable-img" src="images/optimization.png" data-toggle="modal" data-target="#project3" alt="Website Optimization">
                   </picture>
                 </div>
+                <h3 class="text-uppercase">Website Optimization</h3>
+                <p class="github-icon"><a class="fontawesome-github-alt" href="https://github.com/AaronJuarez/website-optimization" target="_blank"></a></p>
               </div>
           </div>
 
           <div class="row text-center">
               <div class="col-md-12 portfolio-elem">
-                  <h3 class="text-uppercase">Neighborhood Map</h3>
-                  <p class="github-icon"><a class="fontawesome-github-alt" href="http://github.com" target="_blank"></a></p>
                   <div class="fader center-block">
                     <picture>
-                      <source media="(min-width: 750px)" srcset="images/people-1600_large_2x.jpg 2x, images/people-800_large_1x.jpg"/>
-                      <img class="img-responsive center-block clickable-img" src="images/people-1600_large_2x.jpg" data-toggle="modal" data-target="#project4" alt="Neighborhood Map">
+                      <source media="(min-width: 750px)" srcset="images/neighborhood.png 2x, images/neighborhood.png"/>
+                      <img class="img-responsive center-block clickable-img" src="images/neighborhood.png" data-toggle="modal" data-target="#project4" alt="Neighborhood Map">
                     </picture>
                   </div>
+                  <h3 class="text-uppercase">Neighborhood Map</h3>
+                  <p class="github-icon"><a class="fontawesome-github-alt" href="http://github.com" target="_blank"></a></p>
+              </div>
+          </div>
+
+          <div class="row text-center">
+              <div class="col-md-12 portfolio-elem">
+                  <div class="fader center-block">
+                    <picture>
+                      <source media="(min-width: 750px)" srcset="images/portfolio.png 2x, images/portfolio.png"/>
+                      <img class="img-responsive center-block clickable-img" src="images/portfolio.png" data-toggle="modal" data-target="#project5" alt="Portfolio Site">
+                    </picture>
+                  </div>
+                  <h3 class="text-uppercase">Portfolio Site</h3>
+                  <p class="github-icon"><a class="fontawesome-github-alt" href="https://github.com/AaronJuarez/AaronJuarez.github.io" target="_blank"></a></p>
               </div>
           </div>
 
@@ -130,6 +143,9 @@
               This was my first project in this class. I learned a lot about HTML and CSS.
             </div>
             <div class="modal-footer">
+              <a href="https://aaronjuarez.github.io/online-resume" target="_blank">
+                <button type="button" class="btn btn-default">Go</button>
+              </a>
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
           </div>
@@ -141,13 +157,16 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h4 class="modal-title" id="myModalLabel">Classic Arcade</h4>
+              <h4 class="modal-title" id="myModalLabel">Classic Arcade Game</h4>
             </div>
             <div class="modal-body">
-              <img class="img-responsive" src="images/arcade.png" alt="Classic Arcade">
+              <img class="img-responsive" src="images/arcade.png" alt="Classic Arcade Game">
               This was my first project in this class. I learned a lot about HTML and CSS.
             </div>
             <div class="modal-footer">
+              <a href="https://aaronjuarez.github.io/classic-arcade-game-clone" target="_blank">
+                <button type="button" class="btn btn-default">Go</button>
+              </a>
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
           </div>
@@ -162,17 +181,20 @@
               <h4 class="modal-title" id="myModalLabel">Website Optimization</h4>
             </div>
             <div class="modal-body">
-              <img class="img-responsive" src="images/nature-1600_large_2x.jpg" alt="Website Optimization">
+              <img class="img-responsive" src="images/optimization.png" alt="Website Optimization">
               This was my first project in this class. I learned a lot about HTML and CSS.
             </div>
             <div class="modal-footer">
+              <a href="https://aaronjuarez.github.io/website-optimization" target="_blank">
+                <button type="button" class="btn btn-default">Go</button>
+              </a>
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
       </div>
 
-            <!-- Modal Project 4-->
+      <!-- Modal Project 4-->
       <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -180,10 +202,34 @@
               <h4 class="modal-title" id="myModalLabel">Neighborhood Map</h4>
             </div>
             <div class="modal-body">
-              <img class="img-responsive" src="images/people-1600_large_2x.jpg" alt="Neighborhood Map">
+              <img class="img-responsive" src="images/neighborhood.png" alt="Neighborhood Map">
               This was my first project in this class. I learned a lot about HTML and CSS.
             </div>
             <div class="modal-footer">
+              <a href="https://aaronjuarez.github.io" target="_blank">
+                <!--button type="button" class="btn btn-default">Go</button-->
+              </a>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Project 5-->
+      <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">Portfolio Site</h4>
+            </div>
+            <div class="modal-body">
+              <img class="img-responsive" src="images/portfolio.png" alt="Portfolio Site">
+              This was my first project in this class. I learned a lot about HTML and CSS.
+            </div>
+            <div class="modal-footer">
+              <a href="http://aaronjuarez.github.io/">
+                <button type="button" class="btn btn-default">Go</button>
+              </a>
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
           </div>
